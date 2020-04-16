@@ -281,11 +281,11 @@ header {
   outline: 5px solid rgb(0, 255, 0);
 }
 
-.contact-us-form textarea {
+.contact-us-form textarea:invalid {
   outline: 5px solid rgb(255, 0, 0);
 }
 
-.contact-us-form textarea {
+.contact-us-form textarea:valid {
   outline: 5px solid rgb(0, 255, 0);
 }
 
