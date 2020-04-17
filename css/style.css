@@ -265,7 +265,7 @@ header {
   border: none;
 }
 
-.contact-us-form input[type="email"]:invalid {
+.contact-us-form input[type="email"]:focus:invalid {
   outline: 5px solid rgb(255, 0, 0);
 }
 
@@ -273,7 +273,7 @@ header {
   outline: 5px solid rgb(0, 255, 0);
 }
 
-.contact-us-form input[type="text"]:invalid {
+.contact-us-form input[type="text"]:focus:invalid {
   outline: 5px solid rgb(255, 0, 0);
 }
 
@@ -281,7 +281,7 @@ header {
   outline: 5px solid rgb(0, 255, 0);
 }
 
-.contact-us-form textarea:invalid {
+.contact-us-form textarea:focus:invalid {
   outline: 5px solid rgb(255, 0, 0);
 }
 
